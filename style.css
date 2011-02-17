@@ -1,10 +1,13 @@
 body {
     background: #F0F0F0 ;
 }
-header {
+header h1 {
     border-bottom: 2px solid #CCCCCC;
     margin: 0 0 10px 0 ;
-    font-size: 18px;
+    font-size: 28px;
+    font-family: Arial, verdana-serif ;
+}
+h2 {
     font-family: Arial, verdana-serif ;
 }
 footer {
@@ -16,10 +19,10 @@ footer {
     text-align:center;
     color:#ffffff;
 }
-#content {
+.article {
     background: none repeat scroll 0 0 #FFFFFF ;
     border: 1px solid #CCCCCC ;
-    margin: 0 0 28px ;
+    margin: 0 0 20px ;
     padding: 5px ;
     width: 70% ;
 }
