@@ -1,0 +1,29 @@
+body {
+    background: #F0F0F0 ;
+}
+header {
+    border-bottom: 2px solid #CCCCCC;
+    margin: 0 0 10px 0 ;
+    font-size: 18px;
+    font-family: Arial, verdana-serif ;
+}
+footer {
+    background:#B8B7B6;
+    border-top:1px solid #cccccc;
+    padding:10px;
+    -moz-border-radius:5px;
+    border-radius:5px; // for Opera
+    text-align:center;
+    color:#ffffff;
+}
+#content {
+    background: none repeat scroll 0 0 #FFFFFF ;
+    border: 1px solid #CCCCCC ;
+    margin: 0 0 28px ;
+    padding: 5px ;
+    width: 70% ;
+}
+a:link {text-decoration: none; color: blue;}
+a:visited {text-decoration: none; color: black;}
+a:active {text-decoration: none}
+a:hover { color: grey;font-weight: bold;font-size: 16px;}
